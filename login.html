@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      
+      <form action="" method="POST">
+      <h2 class="text-center">Choose Account Type</h2>
+      <div class="row justify-content-center">
+        <div class="col-5 account-type" id="doctor">
+          <img src="doctor_image.png" alt="Doctor">
+          <p>Doctor</p>
+        </div>
+        <div class="col-5 account-type" id="patient">
+          <img src="patient_image.png" alt="Patient">
+          <p>Patient</p>
+        </div>
+      </div>
+        
+        <div class="key">
+        </div>
+      
+        <div class="form-group floating-label">
+          <input type="email" id="email" class="form-control" placeholder=" ">
+          <label for="email">Email</label>
+          <div class="input-icon"><i class="fas fa-envelope"></i></div>
+        </div>
+        
+        <div class="hold">
+        </div>
+        
+        
+        <div class="form-group floating-label">
+          <input type="password" id="password" class="form-control" placeholder=" ">
+          <label for="password">Password</label>
+          <div class="input-icon"><i class="fas fa-lock"></i></div></div>
+      
+          <small class="form-text text-right"><a href="#">Forgot?</a></small>
+      
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+        <p class="text-center mt-3">No account? <a href="#">Signup</a></p>
+        
+      </form>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

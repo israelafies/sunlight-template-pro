@@ -1,0 +1,111 @@
+body {
+  background-color: #f0f5ff;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.login-box {
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #2f80ed;
+}
+
+.account-type {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.account-type img {
+  width: 50px;
+  height: 50px;
+}
+
+.account-type p {
+  margin-top: 10px;
+  color: #4f4f4f;
+}
+
+.account-type.active {
+  border-color: #2f80ed;
+  background-color: #e0f7ff;
+}
+
+/* Floating Label */
+.form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.key {
+  padding:15px;
+}
+
+.hold {
+  padding:5px;
+}
+
+
+input.form-control {
+  border: 1px solid #cfd8dc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: #f0f5ff;
+  font-size: 16px;
+}
+
+input.form-control:focus {
+  border-color: #2f80ed;
+  outline: none;
+}
+
+.floating-label label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 16px;
+  color: #9e9e9e;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.floating-label input:focus ~ label,
+.floating-label input:not(:placeholder-shown) ~ label {
+  top: -15px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #2f80ed;
+  padding: 0 5px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #9e9e9e;
+}
+
+.btn-primary {
+  background-color: #2f80ed;
+  border: none;
+}
+
+a {
+  color: #2f80ed;
+}
+
+a:hover {
+  color: #1c6dda;
+}
